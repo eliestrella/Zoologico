@@ -9,13 +9,18 @@ package zoologico;
  *
  * @author educacionit
  */
-public class Zoologico {
+public class Programa {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        zoologico.entidades.Zoologico Z  = new zoologico.entidades.Zoologico();
+        
+        Z.abrir();
+        Z.alimentarAnimales(50);
+        Z.cerrar();
     }
     
 }
